@@ -30,7 +30,7 @@ public class PrimeNumbersMinerApplication {
         SpringApplication.run(PrimeNumbersMinerApplication.class, args);
     }
 
-    @Scheduled(fixedRate = 1000)
+    @Scheduled(fixedDelay = 1000)
     public void run() {
         log.debug("Started Execution...");
 
